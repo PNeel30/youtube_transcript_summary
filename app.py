@@ -1,7 +1,7 @@
 import streamlit as st
 from dotenv import load_dotenv
 import os
-import google.generativeai as genai
+import google.generativeai as genai # type: ignore
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound, VideoUnavailable
 from urllib.parse import urlparse, parse_qs
 
