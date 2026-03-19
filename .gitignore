@@ -1,0 +1,17 @@
+# Ignore environment variable files
+.env
+.env.*
+*.env
+
+# Common Python virtual environment folders
+venv/
+.venv/
+env/
+.envrc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
